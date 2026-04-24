@@ -1,0 +1,18 @@
+2026-04-24 00:26:57 | INFO     | app.integrations.qdrant:bootstrap_qdrant:86 | Qdrant bootstrap successful: collection={'status': 'exists', 'collection': 'lumi_documents'}, payload_indexes={'status': 'created', 'fields': 'user_id,document_id'}
+2026-04-24 00:26:57 | INFO     | app.main:on_startup:34 | Startup Qdrant bootstrap result: {'status': 'ok', 'detail': 'collection:exists,indexes:created'}
+INFO:     127.0.0.1:49954 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49958 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63290 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57872 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57874 - "GET /api/v1/documents/ HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:64699 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64543 - "GET /api/v1/documents/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64545 - "POST /api/v1/documents/39a392c7-2921-4bce-a6c8-bf919b5fce0a/reprocess HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64546 - "DELETE /api/v1/documents/39a392c7-2921-4bce-a6c8-bf919b5fce0a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58702 - "GET /api/v1/documents/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58984 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58986 - "GET /api/v1/documents/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58988 - "POST /api/v1/documents/e07e9892-73f4-418d-b678-e7af64be8f79/reprocess HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58989 - "DELETE /api/v1/documents/e07e9892-73f4-418d-b678-e7af64be8f79 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58990 - "GET /api/v1/documents/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50381 - "GET /openapi.json HTTP/1.1" 200 OK
